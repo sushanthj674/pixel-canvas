@@ -4,10 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>pixel canvas</title>
+  <title>board</title>
   <style>
     * {
       box-sizing: border-box;
+    }
+
+    :root {
+      --bg-color: black
+    }
+
+    .pixel {
+      padding: 5px;
+      transition: background-color 3s;
+    }
+
+    .pixel:hover {
+      background-color: var(--bg-color);
+      transition: background-color 0s;
     }
 
     .parent {
@@ -15,85 +29,8 @@
       width: 1000px;
       border: 1px solid;
       display: flex;
+      justify-content: center;
       flex-wrap: wrap;
-    }
-
-    .pixel {
-      width: 10px;
-      height: 10px;
-      display: inline-block;
-    }
-
-    @keyframes black-fun {
-      from {
-        background-color: black;
-      }
-
-      to {
-        background-color: white;
-      }
-
-    }
-
-    @keyframes green-fun {
-      from {
-        background-color: green;
-      }
-
-      to {
-        background-color: white;
-      }
-
-    }
-
-    @keyframes blue-fun {
-      from {
-        background-color: blue;
-      }
-
-      to {
-        background-color: white;
-      }
-
-    }
-
-    @keyframes red-fun {
-      from {
-        background-color: red;
-      }
-
-      to {
-        background-color: white;
-      }
-    }
-
-    h1 {
-      font-family: fantasy;
-      text-align: center;
-    }
-
-    .black-sketch {
-      animation: black-fun 5s;
-      animation-fill-mode: both;
-      animation-delay: 0ms;
-    }
-
-    .blue-sketch {
-      animation: blue-fun 5s;
-      animation-fill-mode: both;
-      animation-delay: 0ms;
-    }
-
-    .red-sketch {
-      animation: red-fun 5s;
-      animation-fill-mode: both;
-      animation-delay: 0ms;
-    }
-
-    .green-sketch {
-      animation: green-fun 5s;
-      animation-fill-mode: both;
-      animation-delay: 0ms;
     }
 
     .custom {
@@ -107,6 +44,13 @@
       padding: 10px;
       width: 80px;
     }
+    h1{
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 20px;
+      font-family: fantasy;
+       }
+
   </style>
 </head>
 
@@ -215,324 +159,79 @@
     <div class="pixel"></div>
     <div class="pixel"></div>
     <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
+    <div class="pixel"></div>
 
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-
-    <div class="pixel"></div>
-
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-
-    <div class="pixel"></div>
-
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
 
 
 
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
-    <div class="pixel"></div>
     <div class="pixel"></div>
     <div class="pixel"></div>
     <div class="pixel"></div>
@@ -5480,37 +5179,26 @@
 
   </div>
   <div class="custom">
-    <button onclick="setBlack()">black</button>
-    <button onclick="setBlue()">blue</button>
-    <button onclick="setGreen()">green</button>
-    <button onclick="setRed()">red</button>
+    <button id="black-btn" onclick="setBlack()">black</button>
+    <button id="blue-btn" onclick="setBlue()">blue</button>
+    <button id="green-btn" onclick="setGreen()">green</button>
+    <button id="red-btn" onclick="setRed()">red</button>
   </div>
 
-
   <script>
-
-    const pixels = [...document.getElementsByClassName('pixel')];
-    const colors = ['black-sketch', 'blue-sketch', 'red-sketch', 'green-sketch'];
-    const clearClass = (pixel, time) => {
-      setTimeout(() => {
-        pixel.classList.remove(...colors);
-      }, time * 1000);
+    const documentStyle = document.documentElement.style;
+    const setBlack = () => {
+      documentStyle.setProperty('--bg-color', 'black');
     };
-    const changeClass = (className) => {
-      pixels.forEach((pixel) => {
-        pixel.onmouseenter = () => {
-          pixel.classList.remove(...colors);
-          pixel.classList.add(className);
-          clearClass(pixel, 5);
-        };
-      });
+    const setBlue = () => {
+      documentStyle.setProperty('--bg-color', 'blue');
     };
-
-    const setBlack = () => changeClass('black-sketch');
-    const setBlue = () => changeClass('blue-sketch');
-    const setRed = () => changeClass('red-sketch');
-    const setGreen = () => changeClass('green-sketch');
-    setBlack()
+    const setRed = () => {
+      documentStyle.setProperty('--bg-color', 'red');
+    };
+    const setGreen = () => {
+      documentStyle.setProperty('--bg-color', 'green');
+    };
   </script>
 </body>
 
